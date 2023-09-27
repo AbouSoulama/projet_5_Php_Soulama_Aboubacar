@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* index.html */
+
+
+nav a{
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+}
+
+nav select{
+    width: 120px;
+    height: 35px;
+    border: none;
+    margin-left: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+nav select:hover{
+    background: wheat;
+}
+.rr{
+    display: flex;
+}
+.rig{
+    margin-right: 30%;
+}
+.se{
+    background: rgb(255, 113, 18);
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    text-align:  center;
+    border: 2px solid rgb(209, 209, 209);
+}
+.se a{
+    color: aliceblue;
+}
+.cree{
+    background: green;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    text-align:  center;
+    color: aliceblue;
+    border: 2px solid rgb(209, 209, 209);
+    margin-left: 10px;
+}
+.searc{
+    font-size: 1.5rem;
+    padding-right: 30px;
+  cursor: pointer;
+}
+.cree a{
+    color: aliceblue;
+}
+form{
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+    background-image: linear-gradient(rgb(14, 13, 13), rgb(206, 206, 206),black);
+    margin-top: -2%;
+}
+.tou img{
+    width: 600px;
+    height: 600px;
+    margin-top: 5%;
+    border-radius: 8px;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15%;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+form input{
+    margin-left: 15%;
+    width: 500px;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid rgb(15, 8, 8);
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+form button{
+    margin-left: 15%;
+    width: 150px;
+    height: 35px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background: rgb(0, 129, 0);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.bien h1{
+    padding-left: 10%;
+    color: rgb(255, 113, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bien p{
+    padding-left: 10%;
+    padding-right: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    color: whitesmoke;
+    padding-bottom: 2%;
+}
+.bien{
+    padding-top: 3%;
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0.5));
+}
+
+
