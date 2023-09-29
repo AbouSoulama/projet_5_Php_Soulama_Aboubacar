@@ -61,7 +61,7 @@ include("connexion.php");
             </button>
             <div class="collapse navbar-collapse" id="navbarExample01">
             <img src="drapeau-du-burkina-faso-pays-du-burkina-faso-en-afrique-de-l-ouest-modele-pour-la-conception-de-prix-un-document-officiel-avec-le-drapeau-du-burkina-faso-2cbf6t2.jpg" alt="" style="width: 60px;height: 60px;border-radius:50px;"><a style="color: green; margin-left:1%;font-size:1.2rem;text-decoration:none;" href="">Sites touristique BF</a>
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left:15%;margin-right:10%">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left:5%;margin-right:5%">
               
                 <li class="nav-item active">
                   <a class="nav-link" aria-current="page" href="acceil.php" style="font-size:1.2rem">Acceil</a>
@@ -124,7 +124,7 @@ include("connexion.php");
         <div
           id="intro-example"
           class="p-5 text-center bg-image"
-          style="background-image: url('expediav2-2590021-9df5d8-337869.jpg'); background-size: cover; background-repeat: no-repeat; height: 750px"
+          style="background-image: url('expediav2-2590021-9df5d8-337869.jpg'); background-size: cover; background-repeat: no-repeat; height: 650px"
         >
           <div class="mask" style="background-color: rgba();">
             <div class="d-flex justify-content-center align-items-center h-100">

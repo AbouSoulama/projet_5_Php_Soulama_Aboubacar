@@ -59,7 +59,7 @@ die('Erreur : '.$e->getMessage());
             </button>
             <div class="collapse navbar-collapse" id="navbarExample01">
             <img src="drapeau-du-burkina-faso-pays-du-burkina-faso-en-afrique-de-l-ouest-modele-pour-la-conception-de-prix-un-document-officiel-avec-le-drapeau-du-burkina-faso-2cbf6t2.jpg" alt="" style="width: 60px;height: 60px;border-radius:50px;"><a style="color: green; margin-left:1%;font-size:1.2rem;text-decoration:none;" href="">Sites touristique BF</a>
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left:15%;margin-right:10%">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left:5%;margin-right:5%">
               
                 <li class="nav-item active">
                   <a class="nav-link" aria-current="page" href="acceil.php" style="font-size:1.2rem">Acceil</a>
@@ -157,7 +157,7 @@ die('Erreur : '.$e->getMessage());
      <img src="maxresdefault (1).jpg" alt="">
       </div>
       <div class="wd">
-      <h1><?php echo afficherNomVilleParID(12)?></h1>
+      <h1><?php echo afficherNomVilleParID(9)?></h1>
       <p><?php echo afficherDescriptionVilleParNom("OUAGADOUGOU");?></p>
       <div class="wb"><button class="button"> <a href="waga.php" style="color:white;text-decoration:none">Découvrir Ouagadougou <i class="fa-solid fa-arrow-right"></i></a></button></div>
       </div>

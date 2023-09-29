@@ -82,7 +82,7 @@
         <div
           id="intro-example"
           class="p-5 text-center bg-image"
-          style="background-image: url('slider1.jpg'); background-size: cover; background-repeat: no-repeat; height: 700px"
+          style="background-image: url('slider1.jpg'); background-size: cover; background-repeat: no-repeat; height: 565px"
         >
           <div class="mask" style="background-color: rgba();">
             <div class="d-flex justify-content-center align-items-center h-100">
