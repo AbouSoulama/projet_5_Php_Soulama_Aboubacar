@@ -1,5 +1,3 @@
-
-
 <?php
 session_start();
 try
@@ -123,17 +121,14 @@ die('Erreur : '.$e->getMessage());
         <div
           id="intro-example"
           class="p-5 text-center bg-image"
-          style="background-image: url('Cascades_de_Banfora_Burkina_Faso.jpeg'); background-size: cover; background-repeat: no-repeat; height: 750px"
+          style="background-image: url('slider1.jpg'); background-size: cover; background-repeat: no-repeat; height: 750px"
         >
           <div class="mask" style="background-color: rgba();">
             <div class="d-flex justify-content-center align-items-center h-100">
               <div class="text-white">
-                <h1 class="mb-3">Bienvenue à Banfora, la cité du paysant</h1>
+                <h1 class="mb-3">Bienvenue au Burkina Faso</h1>
              <marquee class="nn"  behavior="" direction="">  <p class="mb-4">Un pays de plusieurs diversitées. Le Burkina Faso une destination a ne pas manquer. <br></p></marquee> 
-                <marquee class="nn" behavior="" direction="right">Explorez découvrer les sites touristiques incontournable de  Banfora, la  3ème capitale du Burkina Faso.
-Eplorez son riche patrimoine culturel, assistez à ses festivals spectaculaires et goutez à la cuisine délicieuse et ses restaurants réputés.
-Se divertir
-Des lieux à voir, des rues à explorer et des expériences emblématiques.</marquee>
+                <marquee class="nn" behavior="" direction="right">Découvrez les merveilles cachées du Burkina Faso. Du parc national des Deux Balés à la ville mystique de Tiébélé, il y a tant à voir et à explorer.</marquee>
                 <a
                   class="btn btn-outline-light btn-lg "
                   href=""
@@ -155,88 +150,136 @@ Des lieux à voir, des rues à explorer et des expériences emblématiques.</mar
         </div>
         <!-- Background image -->
       </header>
+      
+      <section class="sect_26">
+      
+      <div class="wi">
+     <img src="maxresdefault (1).jpg" alt="">
+      </div>
+      <div class="wd">
+      <h1><?php echo afficherNomVilleParID(12)?></h1>
+      <p><?php echo afficherDescriptionVilleParNom("OUAGADOUGOU");?></p>
+      <div class="wb"><button class="button"> <a href="waga.php" style="color:white;text-decoration:none">Découvrir Ouagadougou <i class="fa-solid fa-arrow-right"></i></a></button></div>
+      </div>
+      
+      
+      </section>
+      
+      
 
+<section class="sect_13">
 
+<h1><?php echo afficherNomVilleParID(9)?></h1>
+<p><?php echo afficherDescriptionVilleParNom("BOBO-DIOULASSO");?></p>
+<div class="rowsss">
+ <div class="bobo">
+ <div  class="o"><?php echo afficherImageVilleParNom("BOBO-DIOULASSO");?></div>
+ <!-- <img src="10212.jpg" alt=""> -->
+ <h1>Dioulassoba</h1>
+ <p>Cette mosquée historique a été construite selon une architecture traditionnelle en 1880. Elle offre une vue panoramique sur la ville de Bobo-Dioulasso.</p>
+ <div class="sia"><button><a href="sya.php">Allons à Sya</a> <i class="fa-solid fa-arrow-right"></i></button></div>
+ </div>
 
-<section class="sect_23">
-<div><img src="téléchargement.png" alt=""></div>
-<div><h1>Banfora <br>
-Ville au Burkina Faso</h1>
-  <p>Banfora est une ville du sud-ouest du Burkina Faso fondée en 1903. Elle est la capitale de la région des Cascades et de la Province de la Comoé et chef-lieu du département du même nom. Wikipédia
-    Altitude : 303 m
-    Population : 117 200 (2019)
-    Météo : 24°C, vent N à 3 km/h, 96 % d'humidité weather.com
-    Heure locale : jeudi 00:31
-    Superficie : 93 400 ha = 934 km2
-    Province : Comoé
-    Coordonnées : 10° 36′ nord, 4° 45′ ouest
-    Densité : 179 hab./km2
-    Équipe : Union sportive de la Comoé.
-    Banfora est une ville du sud-ouest du Burkina Faso fondée en 1903. Elle est la capitale de la région des Cascades et de la Province de la Comoé et chef-lieu du département du même nom. Wikipédia</p>
+<div class="bobo">
+<div  class="o"><img src="le-burkina-faso-region-hauts-bassins-bobo-dioulasso-la-gare-ferroviaire-p2pf9m.jpg" alt=""></div>
+<h1>Place Tiefo Amoro</h1>
+<p>La gare de Bobo est un merveilleux exemple d'architecture coloniale française et est un point de départ pour de nombreuses destinations. <br> Bobo-Dioulasso.</p>
+<div class="sia"><button><a href="sya.php">Allons à Sya <i class="fa-solid fa-arrow-right"></i></a></button></div>
 </div>
-  
+<div class="bobo">
+<div class="o"><img src="16283929-fruits-et-légumes-à-l-étal-de-marché.jpg" alt=""></div>
+<h1>Le grand marché</h1>
+<p>Découvrez le marché animé de Touba, où les étals regorgent de fruits frais, de viande et de tissus colorés. <br> Bobo-Dioulasso.</p>
+<div class="sia"><button><a href="sya.php">Allons à Sya <i class="fa-solid fa-arrow-right"></i></a></button></div>
+</div>
+</div>
+<!-- <button> S'y rendre <i class="fa-solid fa-arrow-right"></button> -->
 </section>
 
-<section class="sect_24">
-<h1>Principales attractions à Banfora</h1>
-<h1>Cascades de Banfora</h1>
-<div class="prin">
-  
-  <div class="d">
-    <img src="karfiguela-falls.jpg" alt="">
-  <h3>Cascade de Karfiguéla</h3>
-  <p>Admirez les chutes d'eaux, baignez-vous dans les piscines naturelles et découvrez les légendes locales.</p>
-  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa id, architecto soluta vel accusamus dicta necessitatibus aut commodi dolor! Explicabo, quis. Deleniti dolores ut unde quo. Quis, esse distinctio.</p> -->
-  <button><a href="">Explorez <i class="fa fa-arrow-right" aria-hidden="true"></i></a></button>
-  </div>
-  <div class="d">
-    <img src="cascades de l'EST (2).JPG" alt="">
-  <h3>Cascade de Banfora</h3>
-  <p>La plus célèbre cascade de la région. Déjà utilisée comme décors de cinéma pour plusieurs films célèbres.</p>
-  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa id, architecto soluta vel accusamus dicta necessitatibus aut commodi dolor! Explicabo, quis. Deleniti dolores ut unde quo. Quis, esse distinctio.</p> -->
-  <button><a href="">Explorez <i class="fa fa-arrow-right" aria-hidden="true"></i></a></button>
-  </div>
-  <div class="d">
-    <img src="pics-de-sindou.jpg" alt="">
-  <h3>Cascade de Sindou</h3>
-  <p>Scène de plusieurs films also. Très fréquentée par les photographes, l'endroit offre un paysage impressionnant.</p>
-  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa id, architecto soluta vel accusamus dicta necessitatibus aut commodi dolor! Explicabo, quis. Deleniti dolores ut unde quo. Quis, esse distinctio.Quis, esse distinctio.</p> -->
-  <button><a href="">Explorez <i class="fa fa-arrow-right" aria-hidden="true"></i></a></button>
-  </div>
-  <!-- <div class="d">
-    <img src="téléchargement.jpeg" alt="">
-  <h3>Kénédougou</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa id, architecto soluta vel accusamus dicta necessitatibus aut commodi dolor! Explicabo, quis. Deleniti dolores ut unde quo. Quis, esse distinctio.Quis, esse distinctio.</p>
-  <button><a href="">Explorez <i class="fa fa-arrow-right" aria-hidden="true"></i></a></button>
-  </div> -->
-  
+<section class="sect_14">
+<h1><?php echo afficherNomVilleParID(10)?></h1>
+<h5><?php echo afficherDescriptionVilleParNom("BANFORA");?></h5>
+
+<div class="rowss">
+
+<div class="banfo">
+<img src="Cascades-de-Banfora.jpg" alt="">
+<h3>Cascades de Banfora</h3>
+<p>Les cascades Karfiguela sont les plus populaires avec leur eau claire et rafraîchissante pour la baignade.</p>
+<div><button class="button"> <a href="banf.php" style="color:white;text-decoration:none">Découvrir Banfora <i class="fa-solid fa-arrow-right"></i></a></button></div>
+</div>
+<div class="banfo">
+<img src="téléchargement (4).jpeg" alt="">
+<h3>Grottes de Douna</h3>
+<p>Descendez dans les grottes de Douna pour découvrir des formations rocheuses fascinantes, des chauves-souris et des passages souterrains</p>
+<div><button class="button"> <a href="banf.php" style="color:white;text-decoration:none">Découvrir Banfora <i class="fa-solid fa-arrow-right"></i></a></button></div>
+</div>
 </div>
 
+<!-- <div class="rowss">
+<div class="banfo">
+<img src="1566845158-Ln3gA8ZnEa5iOUc.jpeg" alt="">
+<h3>Lac Tengréla</h3>
+<p>Passez une journée sur le lac Tengréla, en faisant du canoë-kayak ou de la voile, ou profitez simplement des vues magnifiques.</p>
+</div>
+<div class="banfo">
+<img src="tourisme-a-la-rencontre-de-cinq-merveilles-du-burkina-faso.jpg" alt="">
+<h3>La Source aux Crocodiles.</h3>
+<p>La Source aux Crocodiles est une série de cascades où les visiteurs peuvent observer des crocodiles dans leur habitat naturel.</p>
+</div>
+</div> -->
 
 
 </section>
 
-<section class="sect_25">
-<h1>La Dômes de Fabédougou</h1>
-<p>Un site géologique hors du commun, la Dôme de Fabédougou est composée de formations géologiques spectaculaires. Partez à la découverte des lieux à travers des randonnées accessibles à tous !</p>
-<div class="diss">
-<div>
-<img src="téléchargement (1).jpg" alt="">
-<h3>Repos sous les baobabs</h3>
-<p>Après une journée bien remplie, relaxez-vous en regardant un coucher de soleil sous les arbres emblématiques de l'Afrique. Profitez de l'heure dorée pour des photos magnifiques.</p>
-</div>
-<div>
-<img src="téléchargement.jpg" alt="">
-<h3>Rivière aux crocodiles</h3>
-<p>Visitez une petite rivière réputée, notamment pour ses crocodiles et ses paysages spectaculaires !</p>
-</div>
-<div class="reg">
-<img src="vu-sur-les-champs-de.jpg" alt="">
-<h3>La Dôme de Fabédougou</h3>
-<p>Vue impressionnante de la roche rouge et du paysage verdoyant.</p>
-</div>
-</div>
+<!-- 
+<section class="sect_8">
 
+<h1 style="color: rgb(41, 36, 34);"><
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100 hov">
+      <img src="images/img-20181026-123251-largejpg.jpg" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+      <div class="card-body">
+        <div><h3>1</h3><h5 class="card-title"></h5>Le lieu historique</div>
+        <p class="card-text">
+          Le climat de Ziniaré est généralement chaud et sec. Prévoyez des vêtements légers et de la protection solaire.
+        </p>
+        <button></button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 hov">
+      <img src="images/7706d9fc210b3c4a7c677352e8fccc7f.jpg" class="card-img-top" alt="Palm Springs Road"/>
+      <div class="card-body">
+        <div><h3>2</h3><h5 class="card-title">Le village artisanal</h5></div>
+        <p class="card-text">De nombreux hôtels et auberges accueillantes sont disponibles à Ziniaré pour tous les budgets.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 hov">
+      <img src="images/images (1).jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+         <div><h3>3</h3><h5 class="card-title">Le parc animalier</h5></div>
+        <p class="card-text">Le réseau de transport local offre des options de bus et de taxis pour se déplacer facilement dans la région.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div><button class="button"> <a href=".php" style="color:white;text-decoration:none">Découvrir Banfora</a></button></div> -->
+</section>
+
+
+
+<section style="background: rgb(233, 233, 233);padding-top:2%; height: 500px;">
+<div class="sect_15">
+<div>
+<h1>Commencez Votre Aventure</h1>
+<p>Prêt à découvrir les merveilles du Burkina Faso? Réservez votre voyage dès maintenant et découvrez pourquoi ce pays enchanteur est un joyau caché de l'Afrique de l'Ouest.</p>
+</div>
+</div>
 </section>
 
 
@@ -435,6 +478,6 @@ Ville au Burkina Faso</h1>
   </footer>
   <!-- Footer -->
 </section>
-       
+    
 </body>
 </html>

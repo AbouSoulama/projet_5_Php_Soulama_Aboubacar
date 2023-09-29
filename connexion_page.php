@@ -46,7 +46,7 @@
       <div class="d-flex align-items-center">
        <!-- <button  class="se"><a href="connexion.php"></a></button>   -->
        <button style=" background: green;margin-left: 5%;" class="se"><a href="inscription.php">S'enregistré</a></button>  
-       <button style=" background: red;margin-left: 5%;" class="se"><a href="index2.php">Retour</a></button>  
+       <button style=" background: red;margin-left: 5%;" class="se"><a href="index.php">Retour</a></button>  
         <!-- <button class="cree"><a href="">créer un compte</a></button> -->
       </div>
     </div>
